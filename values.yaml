@@ -73,6 +73,6 @@ affinity: {}
 ## Persist data to a persitent volume
 persistence:
   enabled: false
+  accessMode: ReadWriteOnce
+  size: 100Mi
   #storageClass:
-  #accessMode: ReadWriteOnce
-  #size: 800Mi
